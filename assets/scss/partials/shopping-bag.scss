@@ -1,0 +1,42 @@
+.shopping-bag-row {
+	margin-top: 60px;
+	font-family: Raleway;
+	color: #262626;
+	text-align: right;
+	hr {
+		width: 75%;
+		padding-top: 10px;
+	}
+}
+
+.shopping-bag-interior {
+	font-family: Raleway;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 0.9em;
+	text-align: center;
+	hr {
+		padding-top: 120px;
+		width: 75%;
+	}
+}
+
+.shopping-bag-button {
+	font-family: Raleway;
+	background: #262626;
+	margin-left: 10px;
+	border-radius: 1px;
+}
+
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (min-width: 10px) and (max-width: 375px) {
+	.shopping-bag-button {
+		width: 80px;
+		font-size: 10px;
+	}
+}
+

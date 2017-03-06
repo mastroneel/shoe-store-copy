@@ -1,0 +1,177 @@
+nav {
+	font-family: Raleway;
+}
+
+
+.nav-desktop-1 {
+	background: rgba(0, 0, 0, 0.85);
+	height: 50px;
+	padding-right: 20px;
+	a {
+		color: #fff;
+	}
+	a:hover {
+		color: #fff;
+	}
+	a:visited {
+		color: #fff
+	}
+	.currency {
+		float: left;
+	}
+	.shoestore {
+		text-align: center;
+	}
+	span {
+		font-family: Covered By Your Grace;
+		font-size: 2em;
+	}
+	.shopping-bag {
+		float: right;
+		height: 35px;
+		padding-top: 12px;
+	}
+	.currency, {
+		padding-top: 10px;
+	}
+}
+
+.nav-desktop-2 {
+	background: rgba(0, 0, 0, 0.1);
+	height: 50px;
+	text-align: center;
+	padding-top: 8px;
+	white-space: nowrap;
+	padding-left: 14%;
+	padding-right: 14%;
+	a {
+		color: rgba(0, 0, 0, 0.75);
+	}
+	a:hover {
+		color: rgba(0, 0, 0, 1);
+
+	}
+	a:visited {
+		color: rgba(0, 0, 0, 0.85);
+	}
+	.new {
+		padding-top: 0;
+		margin-top: -10px;
+	}
+}
+
+.nav-dropdown-1 {
+	background: #262626;
+	border: 1px solid #262626;
+	font-size: 0.95em;
+	a:hover {
+		color: #a9a9a9;
+	}
+}
+
+.nav-dropdown-2 {
+	background: #e5e5e5;
+	border: 1px solid #e5e5e5;
+	font-size: 0.95em;
+}
+
+.is-dropdown-submenu {
+	min-width: 135px;
+}
+
+.is-dropdown-submenu-parent a::after {
+	border: none;
+}
+
+
+
+.nav-mobile {
+	background: rgba(0, 0, 0, 0.85);
+	height: 50px;
+	.mobile-menu-button {
+		background: transparent;
+		margin-top: 0;
+		padding-top: 5px;
+	}
+	a {
+		color: #fff;
+	}
+	.shoestore-mobile {
+		font-family: Covered By Your Grace;
+		font-size: 2em;
+		text-align: center;
+	}
+	.shopping-bag {
+		height: 35px;
+		float: right;
+		padding-top: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+#mobile-menu {
+	background: #262626;
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: Raleway;
+	ul {
+		list-style-type: none;
+	}
+	a {
+		color: #fff;
+	}
+	.mobile-category {
+		font-weight: bold;
+		font-size: 1.4em;
+		margin-top: 20px;
+	}
+	.mobile-subcategory {
+		font-size: 0.7em;
+		font-weight: normal;
+	}
+	.is-accordion-submenu-parent > a::after {
+		border: transparent;
+	}
+	.first-option:focus {
+		outline: none;
+	}
+}
+
+
+// ******
+// FOOTER
+// ******
+
+.footer {
+	height: 200px;
+	margin-top: 150px;
+	background: rgba(0, 0, 0, 0.85);
+}
+
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (max-width: 460px) {
+	.shoestore-mobile {
+		span {
+			font-size: 25px;
+		}
+	}
+}
+
+@media only screen and (min-width: 10px) and (max-width: 460px) {
+	.shoestore-mobile {
+		span {
+			font-size: 18px;
+		}
+	}
+	.mobile-menu-button {
+		margin-left: -20px;
+	}
+	.shopping-bag {
+		margin-right: -10px;
+	}
+}

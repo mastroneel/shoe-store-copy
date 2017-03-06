@@ -1,0 +1,111 @@
+.product-page-row {
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 220px;
+	text-align: center;
+	font-family: Raleway;
+	.product-image {
+		margin-top: 10%;
+	}
+	.product-thumbnails {
+		margin-top: 11%;
+	}
+	.thumbnail {
+		border: none;
+		width: 100px;
+	}
+	p {
+		margin-left: 0px;
+		font-family: Raleway;
+	}
+	h1 {
+		font-size: 2em;
+		font-family: Raleway;
+	}
+	.price {
+		font-size: 2em;
+	}
+	.product-description {
+		margin-top: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.size {
+		background: #fefefe;
+		border: 1px solid #5d5d5d;
+		color: #262626;
+		border-radius: 2px;
+	}
+	.size:hover {
+		border: 1px solid #fefefe;
+		background: rgba(0, 0, 0, 0.1);
+		transition: 0.2s ease;
+	}
+	.add-to-cart {
+		background: rgba(0, 0, 0, 0.80);
+		border-radius: 2px;
+		font-size: 1em;
+		font-weight: bold;
+		margin-top: 25px;
+	}
+	.add-to-cart:hover {
+		background: rgba(0, 0, 0, 0.9);
+	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.product-image {
+
+	}
+	.product-page-row {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+
+
+//**********
+// LIGHTBOX
+//**********
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background: rgba(0, 0, 0, 0.8); 
+    text-align:center;
+}
+
+#lightbox img {
+    max-width:940px;
+    margin-top: 5%;
+}
+
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (min-width: 630px) and (max-width: 840px) {
+	.product-page-row {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.product-description {
+		font-size: 0.8em;
+	}
+	.size {
+		font-size: 0.8em;
+		font-weight: bold;
+	}
+	.product-image {
+		padding-top: 30px;
+	}
+	.product-thumbnails {
+		padding-top: 25px;
+	}
+}
+

@@ -1,0 +1,73 @@
+
+
+.orbit {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.orbit-caption {
+	height: 100%;
+	width: 50%;
+	padding-top: 17%;
+	background-color: rgba(10, 10, 10, 0.7);
+	font-family: Fjalla One;
+	font-size: 4em;
+	text-align: center;
+	line-height: 1;
+	hr {
+		width: 80%;
+		margin-top: 20px;
+	}
+	span {
+		font-family: Raleway;
+		font-size: 0.4em;
+		vertical-align: top;
+	}
+
+}
+
+.orbit-previous, .orbit-next, .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
+	background: none;
+}
+
+
+.shop-button {
+	background: rgba(0, 0, 0, 0.80);
+	border-radius: 1px;
+}
+
+.shop-button:hover {
+	background-color: #fefefe;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.small-home-image {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (max-width: 800px) {
+	.orbit {
+		width: 90%;
+	}
+	.orbit-caption {
+		font-size: 2.4em;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.orbit {
+		visibility: hidden;
+	}
+}
+
+@media only screen and (min-width: 460px) {
+	.small-home-image {
+		display: none;
+	}
+}	

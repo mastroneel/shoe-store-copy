@@ -1,0 +1,50 @@
+
+.category {
+	margin: 0 auto;
+	margin-top: 35px;
+	height: 200px;
+	width: 85%;
+	background: rgba(0, 0, 0, 0.30);
+	color: #fefefe;
+	font-family: Raleway;
+	font-size: 2.8em;
+	text-align: center;
+	padding-top: 60px;
+	letter-spacing: 3px;
+}
+
+.page-row {
+	margin-top: 25px;
+	text-align: right;
+	font-family: Raleway;
+	a {
+		color: rgba(0, 0, 0, 0.75);
+	}
+	a:hover {
+		color: rgba(0, 0, 0, 1);
+		transition: ease-in-out 0.15s;
+	}
+}
+
+.pagination {
+	margin-top: 100px;
+	font-family: Raleway;
+}
+
+.pagination .current {
+	background: transparent;
+	color: #cacaca;	
+}
+
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (min-width: 10px) and (max-width: 375px) {
+	.category {
+		font-size: 1.6em;
+		padding-top: 80px;
+	}
+}
+
